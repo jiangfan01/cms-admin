@@ -1,0 +1,47 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+
+.el-container, .el-aside, .el-aside .el-col, .el-menu {
+  height: 100%;
+}
+
+.el-header, .el-footer {
+  background-color: #e1f0f0;
+  color: #333;
+  height: 60px;
+  line-height: 60px;
+}
+
+.el-header {
+  .logo {
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+  }
+
+  h1 {
+    margin: 0 0 0 20px;
+    font-size: 18px;
+    font-weight: normal;
+    float: left;
+    line-height: 60px;;
+  }
+}
+
+.el-footer {
+  text-align: center;
+}
+
+.el-aside {
+  background-color: #e1f0f0;
+  color: #333;
+  line-height: 200px;
+}
+
+.el-main {
+  color: #333;
+  overflow: visible;
+}
